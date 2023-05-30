@@ -83,16 +83,17 @@ const addEventsReservation = () => {
 const listUpAirplane = () => {
   console.log("listUpAirplane() CALLED!!");
 
-  reservationListWrap.textContent = "";
-  let airplaneArr = searchAirplane();
-
-  let tpl = document.querySelector("#list_item");
-  let clone = document.importNode(tpl.content, true);
-  let txt = clone.querySelector("div.txt");
-  //   txt.textContent = airplaneArr[i];
-
-  reservationListWrap.prepend(clone);
+  reservationListWrap.innerHTML = "";
+  searchAirplane();
 };
+
+//   let tpl = document.querySelector("#list_item");
+//   let clone = document.importNode(tpl.content, true);
+//   let txt = clone.querySelector("div.txt");
+//   //   txt.textContent = airplaneArr[i];
+
+//   reservationListWrap.prepend(clone);
+// };
 
 // airplaneDB.forEach(function (key, value) {
 //     if (key.signInedMemberId == u_id) {

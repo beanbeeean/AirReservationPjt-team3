@@ -32,8 +32,15 @@ const addAirplane = (
 const searchAirplane = () => {
   console.log("addAirplane() CALLED");
 
-  let airplaneArr = airplaneDB.get(signInedMemberId);
-  console.log("airplaneArr: ", airplaneArr);
+  airplaneDB.forEach(function (key, value) {
+    if (key.u_id == signInedMemberId) {
+      reservationListWrap.innerHTML += `
+        <div>
+            ${key.d_code} / ${key.d_date} / ${key.r_no} / ${key.u_id}
+        </div>
+        `;
+    }
+  });
 
-  return airplaneArr;
+  //   return airplaneArr;
 };

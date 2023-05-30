@@ -61,7 +61,7 @@ const addEventsProfile = () => {
     ).value;
     let u_regDate = new Date();
 
-    addMember(u_id, u_pw, u_mail, u_gender, u_phone, u_regDate);
+    addMember(u_id, u_pw, u_gender, u_mail, u_phone, u_regDate);
 
     alert("SIGN UP SUCCESS!!!");
 
