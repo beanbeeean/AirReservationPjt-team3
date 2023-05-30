@@ -14,7 +14,7 @@ const addMember = (id, pw, gender, mail, phone, regDate) => {
         u_phone: phone, 
         u_regDate: regDate});
 
-    
+    console.log(memberDB.get(id));
 
 }
 
@@ -35,14 +35,14 @@ const searchMember = (id, pw) => {
 const searchMemberRegDate = (id) => {
     console.log('searchMemberRegDate() CALLED!!!');
 
-    return [memberDB.get(id).regDate, memberDB.get(id).pw];
+    return memberDB.get(id).u_regDate;
 }
 
 
 const searchMemberPW = (id) => {
-    console.log('searchMemberRegDate() CALLED!!!');
+    console.log('searchMemberPW() CALLED!!!');
 
-    return memberDB.get(id).pw;
+    return memberDB.get(id).u_pw;
 }
 
 

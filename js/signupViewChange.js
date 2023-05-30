@@ -12,9 +12,9 @@ let editWrap = '';
 const initViews = () => {
     console.log('initViews() CALLED!!!');
 
-    signUpWrap = document.querySelector('회원가입 랩');
-    signInWrap = document.querySelector('로그인 랩');
-    editWrap = document.querySelector('회원정보 수정 랩')
+    signUpWrap = document.querySelector('div.sign_up_wrap');
+    signInWrap = document.querySelector('div.sign_in_wrap');
+    editWrap = document.querySelector('div.sign_modify_wrap');
 }
 
 
@@ -35,7 +35,7 @@ const showSelectedView = (viewNo) => {
             editWrap.style.display = 'none';
 
             break;
-        case EDIT_PROFILE:
+        case EDIT_PROFILE_VIEW:
             signUpWrap.style.display = 'none';
             signInWrap.style.display = 'none';
             editWrap.style.display = 'block';

@@ -9,4 +9,6 @@ const init = () => {
     console.log('init() CALLED!!!');
 
     addEventsProfile();
+
+    initViews();
 }
