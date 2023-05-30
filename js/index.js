@@ -1,14 +1,13 @@
-document.addEventListener('DOMContentLoaded', function(){
-    console.log('DOM READY!!!!');
+document.addEventListener("DOMContentLoaded", function () {
+  console.log("DOM READY!!!!");
 
-    init();
+  init();
 });
 
-
 const init = () => {
-    console.log('init() CALLED!!!');
+  console.log("init() CALLED!!!");
 
-    addEventsProfile();
-
-    initViews();
-}
+  addEventsProfile();
+  addEventsReservation();
+  initViews();
+};
