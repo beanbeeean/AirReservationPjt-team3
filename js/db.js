@@ -36,7 +36,9 @@ const searchAirplane = () => {
     if (key.u_id == signInedMemberId) {
       reservationListWrap.innerHTML += `
         <div>
-            ${key.d_code} / ${key.d_date} / ${key.r_no} / ${key.u_id}
+           예약 번호 : ${key.r_no} / 출발지 코드 : ${key.d_code} / 출발 날짜 : ${key.d_date}
+                                   / 도착지 코드 : ${key.a_code} / 도착 날짜 : ${key.a_date} / 
+             성인 수 : ${key.adul} / 소아 수 : ${key.infan}     / 유아 수 : ${key.chil}
         </div>
         `;
     }
