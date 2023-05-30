@@ -1,0 +1,5 @@
+const SIGN_UP_VIEW = 1;
+const SIGN_IN_VIEW = 2;
+const SIGN_MODIFY_VIEW = 3;
+const RESERVATION_VIEW = 4;
+const RESERVATION_LIST_VIEW = 5;
