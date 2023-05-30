@@ -1,0 +1,196 @@
+#wrap {
+  width: 800px;
+  margin: 0 auto;
+}
+
+/* 타이틀 */
+#wrap > div.title_wrap {
+  text-align: center;
+  margin: 30px 0;
+  padding-bottom: 30px;
+  font-size: 2em;
+  font-weight: bold;
+  border-bottom: 3px dashed #dadada;
+}
+
+/* 메뉴 */
+#wrap > div.menu_wrap {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+#wrap > div.menu_wrap a {
+  padding: 15px;
+  border: 1px solid #dadada;
+  border-radius: 8px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#wrap > div.menu_wrap a:hover {
+  background-color: rgba(150, 150, 150, 0.1);
+}
+
+/* 회원 가입 */
+#wrap > div.sign_up_wrap {
+  /* text-align: center; */
+  display: none;
+}
+
+#wrap > div.sign_up_wrap > div {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+#wrap > div.sign_up_wrap span {
+  width: 100px;
+  display: inline-block;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+#wrap > div.sign_up_wrap input {
+  padding: 10px;
+  width: 400px;
+  border: 1px solid #dadada;
+  border-radius: 8px;
+}
+
+#wrap > div.sign_up_wrap select {
+  border: 1px solid #dadada;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+#wrap > div.sign_up_wrap button.sign_up_btn {
+  margin-top: 10px;
+  padding: 15px;
+  border: 1px solid #dadada;
+  font-size: 1.2em;
+  font-weight: bold;
+  border-radius: 8px;
+  color: #242424;
+  cursor: pointer;
+}
+
+/* 로그인 */
+#wrap > div.sign_in_wrap {
+  display: none;
+}
+
+#wrap > div.sign_in_wrap > div {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+#wrap > div.sign_in_wrap span {
+  width: 100px;
+  display: inline-block;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+#wrap > div.sign_in_wrap input {
+  padding: 10px;
+  width: 400px;
+  border: 1px solid #dadada;
+  border-radius: 8px;
+}
+
+#wrap > div.sign_in_wrap button.sign_in_btn {
+  margin-top: 10px;
+  padding: 15px;
+  border: 1px solid #dadada;
+  font-size: 1.2em;
+  font-weight: bold;
+  border-radius: 8px;
+  color: #242424;
+  cursor: pointer;
+}
+
+/* 회원 정보 수정 */
+#wrap > div.sign_modify_wrap {
+  /* display: none; */
+}
+
+#wrap > div.sign_modify_wrap > div {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+#wrap > div.sign_modify_wrap span {
+  width: 100px;
+  display: inline-block;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+#wrap > div.sign_modify_wrap input {
+  padding: 10px;
+  width: 400px;
+  border: 1px solid #dadada;
+  border-radius: 8px;
+}
+
+#wrap > div.sign_modify_wrap select {
+  border: 1px solid #dadada;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+#wrap > div.sign_modify_wrap button {
+  margin-top: 10px;
+  padding: 15px;
+  border: 1px solid #dadada;
+  font-size: 1.2em;
+  font-weight: bold;
+  border-radius: 8px;
+  color: #242424;
+  cursor: pointer;
+}
+
+/* 예약 */
+#wrap > div.reservation_wrap {
+  display: none;
+}
+
+#wrap > div.reservation_wrap > div {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+#wrap > div.reservation_wrap span {
+  width: 100px;
+  display: inline-block;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+#wrap > div.reservation_wrap input {
+  padding: 10px;
+  width: 400px;
+  border: 1px solid #dadada;
+  border-radius: 8px;
+}
+
+#wrap > div.reservation_wrap button {
+  margin-top: 10px;
+  padding: 15px;
+  border: 1px solid #dadada;
+  font-size: 1.2em;
+  font-weight: bold;
+  border-radius: 8px;
+  color: #242424;
+  cursor: pointer;
+}
+
+/* 예약 리스트 */
