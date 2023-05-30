@@ -32,6 +32,12 @@
   background-color: rgba(150, 150, 150, 0.1);
 }
 
+#wrap > div.menu_wrap a.sign_out {
+  display: none;
+}
+#wrap > div.menu_wrap a.sign_modify {
+  display: none;
+}
 /* 회원 가입 */
 #wrap > div.sign_up_wrap {
   /* text-align: center; */
@@ -115,7 +121,7 @@
 
 /* 회원 정보 수정 */
 #wrap > div.sign_modify_wrap {
-  /* display: none; */
+  display: none;
 }
 
 #wrap > div.sign_modify_wrap > div {
