@@ -14,6 +14,8 @@ const addMember = (id, pw, gender, mail, phone, regDate) => {
         u_phone: phone, 
         u_regDate: regDate});
 
+    
+
 }
 
 
@@ -28,4 +30,24 @@ const searchMember = (id, pw) => {
 
     console.log('SIGN IN FAIL!!!');
     return false;
+}
+
+const searchMemberRegDate = (id) => {
+    console.log('searchMemberRegDate() CALLED!!!');
+
+    return [memberDB.get(id).regDate, memberDB.get(id).pw];
+}
+
+
+const searchMemberPW = (id) => {
+    console.log('searchMemberRegDate() CALLED!!!');
+
+    return memberDB.get(id).pw;
+}
+
+
+const deleteProfile = (id) => {
+    console.log('deleteProfile() CALLED!!!');
+
+    memberDB.delete(id);
 }
